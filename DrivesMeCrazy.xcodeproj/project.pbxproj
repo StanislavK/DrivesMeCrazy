@@ -11,6 +11,10 @@
 		C4058BD42B5C4079008EBBD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4058BD32B5C4079008EBBD6 /* ContentView.swift */; };
 		C4058BD62B5C407A008EBBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4058BD52B5C407A008EBBD6 /* Assets.xcassets */; };
 		C4058BD92B5C407A008EBBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4058BD82B5C407A008EBBD6 /* Preview Assets.xcassets */; };
+		C4058BE02B5C479B008EBBD6 /* Dog+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4058BDF2B5C479B008EBBD6 /* Dog+.swift */; };
+		C4058BE22B5C47BE008EBBD6 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4058BE12B5C47BE008EBBD6 /* Dog.swift */; };
+		C4058BE42B5C47F7008EBBD6 /* DetailDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4058BE32B5C47F7008EBBD6 /* DetailDog.swift */; };
+		C4058BE62B5C48C5008EBBD6 /* NavigationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4058BE52B5C48C5008EBBD6 /* NavigationLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		C4058BD32B5C4079008EBBD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4058BD52B5C407A008EBBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4058BD82B5C407A008EBBD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4058BDF2B5C479B008EBBD6 /* Dog+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dog+.swift"; sourceTree = "<group>"; };
+		C4058BE12B5C47BE008EBBD6 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		C4058BE32B5C47F7008EBBD6 /* DetailDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDog.swift; sourceTree = "<group>"; };
+		C4058BE52B5C48C5008EBBD6 /* NavigationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,9 @@
 		C4058BD02B5C4079008EBBD6 /* DrivesMeCrazy */ = {
 			isa = PBXGroup;
 			children = (
-				C4058BD12B5C4079008EBBD6 /* DrivesMeCrazyApp.swift */,
-				C4058BD32B5C4079008EBBD6 /* ContentView.swift */,
-				C4058BD52B5C407A008EBBD6 /* Assets.xcassets */,
+				C4058BE92B5C4983008EBBD6 /* App */,
+				C4058BE72B5C495B008EBBD6 /* Model */,
+				C4058BE82B5C4969008EBBD6 /* Views */,
 				C4058BD72B5C407A008EBBD6 /* Preview Content */,
 			);
 			path = DrivesMeCrazy;
@@ -63,8 +71,36 @@
 			isa = PBXGroup;
 			children = (
 				C4058BD82B5C407A008EBBD6 /* Preview Assets.xcassets */,
+				C4058BDF2B5C479B008EBBD6 /* Dog+.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4058BE72B5C495B008EBBD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4058BE12B5C47BE008EBBD6 /* Dog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4058BE82B5C4969008EBBD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4058BE32B5C47F7008EBBD6 /* DetailDog.swift */,
+				C4058BE52B5C48C5008EBBD6 /* NavigationLabelView.swift */,
+				C4058BD32B5C4079008EBBD6 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4058BE92B5C4983008EBBD6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C4058BD52B5C407A008EBBD6 /* Assets.xcassets */,
+				C4058BD12B5C4079008EBBD6 /* DrivesMeCrazyApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4058BD42B5C4079008EBBD6 /* ContentView.swift in Sources */,
+				C4058BE02B5C479B008EBBD6 /* Dog+.swift in Sources */,
+				C4058BE42B5C47F7008EBBD6 /* DetailDog.swift in Sources */,
+				C4058BE62B5C48C5008EBBD6 /* NavigationLabelView.swift in Sources */,
+				C4058BE22B5C47BE008EBBD6 /* Dog.swift in Sources */,
 				C4058BD22B5C4079008EBBD6 /* DrivesMeCrazyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
