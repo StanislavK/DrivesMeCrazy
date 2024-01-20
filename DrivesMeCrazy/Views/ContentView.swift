@@ -27,7 +27,11 @@ extension ContentView {
         @MainActor
         func fetchDogs() async throws {
             // Have some dogs now!
-            dogs = Dog.previews
+            dogs = [
+                Dog(name: "Yuki", breed: "Samoyed"),
+                Dog(name: "Andy", breed: "Eurasier"),
+                Dog(name: "Luna", breed: "Husky"),
+            ]
         }
     }
 }
